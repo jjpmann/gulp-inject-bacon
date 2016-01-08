@@ -1,17 +1,13 @@
 {
-  "name": "gulp-pleeease",
+  "name": "@jjpmann/gulp-inject-bacon",
   "version": "0.0.1",
   "description": "Inject Bacon Ipsum into files/steams.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jjpmann/gulp-inject-bacon"
+    "url": "git+https://github.com/jjpmann/gulp-inject-bacon.git"
   },
-  "author": {
-    "name": "Jerry Price",
-    "email": "jjpmann@gmail.com",
-    "url": "https://github.com/jjpmann"
-  },
+  "author": "Jerry Price <jjpmann@gmail.com> (https://github.com/jjpmann)",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -30,5 +26,13 @@
   "devDependencies": {
     "gulp-sourcemaps": "^1.2.8",
     "mocha": "*"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jjpmann/gulp-inject-bacon/issues"
+  },
+  "homepage": "https://github.com/jjpmann/gulp-inject-bacon#readme",
+  "main": "index.js",
+  "keywords": [
+    "baconipsum"
+  ]
 }
